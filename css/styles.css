@@ -1,13 +1,15 @@
-#title {
-    border: 10px red solid;
-    text-align: center;
+#container {
+    border: 5px solid red;
+    width: 500px;
+    height: 500px;
+    position: relative;
+
 }
 
-#pie {
-    border: 10px blue solid;
-    text-align: center;
-}
-
-form {
-    padding: 20px;
+#element {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 5px;
 }
